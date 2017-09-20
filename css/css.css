@@ -101,9 +101,9 @@ html {
   }
   100% {
     transform: rotate(360deg) scale(.8);
-    -ms-transform: (-360deg) scale(.8); /* IE 9 */
-    -webkit-transform: (-360deg) scale(.8); /* Chrome, Safari, Opera */
-    -moz-transform: (-360deg) scale(.8)
+    -ms-transform: (360deg) scale(.8); /* IE 9 */
+    -webkit-transform: (360deg) scale(.8); /* Chrome, Safari, Opera */
+    -moz-transform: (360deg) scale(.8)
   }
 }
 
@@ -115,16 +115,29 @@ html {
 }
 
 @keyframes rotating-b {
+
   0% {
     transform: rotate(360deg) scale(.8);
+    -ms-transform: (360deg) scale(.8); /* IE 9 */
+    -webkit-transform: (360deg) scale(.8); /* Chrome, Safari, Opera */
+    -moz-transform: (360deg) scale(.8)
+
   }
   50% {
     transform: rotate(-180deg) scale(1.5);
+    -ms-transform: (-180deg) scale(1.5); /* IE 9 */
+    -webkit-transform: (-180deg) scale(1.5); /* Chrome, Safari, Opera */
+    -moz-transform: (-180deg) scale(1.5)
   }
   100% {
     transform: rotate(-360deg) scale(.8);
+    -ms-transform: (-360deg) scale(.8); /* IE 9 */
+    -webkit-transform: (-360deg) scale(.8); /* Chrome, Safari, Opera */
+    -moz-transform: (-360deg) scale(.8)
   }
 }
+
+
 
 .r-middle {
   fill: #f44d3e;
