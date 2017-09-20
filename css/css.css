@@ -74,10 +74,10 @@ html {
     transform: rotate(0deg) scale(.8);
   }
   50% {
-    transform: rotate(360deg) scale(1.5);
+    transform: rotate(180deg) scale(1.5);
   }
   100% {
-    transform: rotate(0deg) scale(.8);
+    transform: rotate(360deg) scale(.8);
   }
 }
 
@@ -90,7 +90,7 @@ html {
 
 @keyframes rotating-b {
   0% {
-    transform: rotate(0deg) scale(.8);
+    transform: rotate(360deg) scale(.8);
   }
   50% {
     transform: rotate(-180deg) scale(1.5);
