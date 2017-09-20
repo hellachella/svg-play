@@ -65,7 +65,7 @@ html {
 */
 .red-whole {
   mix-blend-mode: exclusion;
-  animation: rotating 100000ms infinite ease-in-out;
+  animation: rotating 15000ms infinite ease-in-out;
   transform-origin: center center;
   fill: #f44d3e;
 }
@@ -92,7 +92,7 @@ html {
 
   .blue-whole {
 
-    animation: rotating-b 100000ms infinite ease-in-out;
+    animation: rotating-b 15000ms infinite ease-in-out;
     transform-origin: center center;
     fill: #f44d3e;
 
