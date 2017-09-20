@@ -112,7 +112,7 @@ html {
   mix-blend-mode: screen;
   animation: rotating-b 30000ms infinite ease-in-out;
   transform-origin: center center;
-  -moz-transform-origin: center center;
+  -moz-transform-origin: 50% 50%;
   fill: #f44d3e;
 }
 
