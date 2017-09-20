@@ -4,6 +4,21 @@
   height: auto;
   margin: 0 auto;
 }
+h1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #f44d3e;
+  padding: 1em;
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
+h1::after {
+  content: " this";
+  visibility: hidden;
+}
+
+
 
 p {
   text-align: center;
@@ -14,6 +29,7 @@ html {
   background-color: #f5bb25;
   background-color: #464646;
   font-family: 'Raleway', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 .tooth {
