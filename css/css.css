@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
 .wrapper {
   max-width: 900px;
   height: auto;
   margin: 0 auto;
-  }
+}
 
-  p {
-    text-align: center;
-
-  }
-
+p {
+  text-align: center;
+}
 
 html {
   background-color: #f49aa9;
   background-color: #f5bb25;
   background-color: #464646;
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .tooth {
@@ -31,7 +28,8 @@ html {
   max-width: 100%;
 }
 
-.e-l, .e-r {
+.e-l,
+.e-r {
   transition: 1000ms ease-out;
 }
 
@@ -46,88 +44,67 @@ html {
 }
 
 .thingy-dingy {
-  max-width: 100%;
-
-  padding: 2em;
+  width: 110%;
 }
 
 .thingy {
   margin: 3em auto;
   width: 100%;
-
+  background: #464646;
   display: block;
-
+  height: vh;
 }
+
+
 /*
 .red-whole:hover {
   mix-blend-mode: screen;
 }
 */
+
 .red-whole {
-  mix-blend-mode: exclusion;
-  animation: rotating 15000ms infinite ease-in-out;
+  mix-blend-mode: screen;
+  animation: rotating 30000ms infinite ease-in-out;
   transform-origin: center center;
   fill: #f44d3e;
 }
 
 @keyframes rotating {
-
-
-  0%{
-    transform: rotate(0deg) sacle(1);
-
-
+  0% {
+    transform: rotate(0deg) scale(.8);
   }
   50% {
     transform: rotate(360deg) scale(1.5);
-
   }
-
-
-  100%{
-    transform: rotate(0deg) scale(1);
-
+  100% {
+    transform: rotate(0deg) scale(.8);
   }
+}
+
+.blue-whole {
+  mix-blend-mode: screen;
+  animation: rotating-b 30000ms infinite ease-in-out;
+  transform-origin: center center;
+  fill: #f44d3e;
+}
+
+@keyframes rotating-b {
+  0% {
+    transform: rotate(0deg) scale(.8);
   }
-
-  .blue-whole {
-
-    animation: rotating-b 15000ms infinite ease-in-out;
-    transform-origin: center center;
-    fill: #f44d3e;
-
-  }
-  @keyframes rotating-b {
-
-
-  0%{
-    transform: rotate(0deg) scale(1);
-
-  }
-
-
   50% {
     transform: rotate(-180deg) scale(1.5);
-
   }
-
-
-  100%{
-    transform: rotate(-360deg) sacle(1);
-
+  100% {
+    transform: rotate(-360deg) scale(.8);
   }
-
-
-
-
 }
 
 .r-middle {
   fill: #f44d3e;
-
 }
 
-
-.b-middle, .r-middle {
+.b-middle,
+.r-middle {
   fill: #f44d3e;
 }
