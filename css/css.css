@@ -124,6 +124,20 @@ html {
   }
 
 }
+
+.fuzzywuzzy:hover {
+  animation: shiver 100ms infinite;
+  transform: all 100ms linear forwards;
+}
+
+@keyframes shiver {
+  from {
+    transform: translateX(-1px);
+  }
+  to {
+    transform: translateX(1px);
+  }
+}
 /*
 .red-whole:hover {
   mix-blend-mode: screen;
