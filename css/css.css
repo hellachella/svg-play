@@ -5,18 +5,28 @@
   margin: 0 auto;
 }
 h1 {
-  font-size: 1rem;
+
   text-transform: uppercase;
   color: #f44d3e;
-  padding: 1em;
+
   letter-spacing: 5px;
-  font-weight: normal;
+
+}
+
+h3 {
+
+  text-transform: uppercase;
+  color: #323232;
+
+  letter-spacing: 5px;
+
 }
 
 h1::after {
   content: " this";
   visibility: hidden;
 }
+
 
 
 
