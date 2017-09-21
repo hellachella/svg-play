@@ -98,7 +98,6 @@ html {
 
   25% {
     fill: white;
-      filter: blur(3px);
   }
   35% {
     fill: lightblue;
@@ -110,7 +109,7 @@ html {
 
   65% {
     fill: lightblue;
-      filter: blur(0px);
+
   }
   85% {
     fill: white;
@@ -120,7 +119,10 @@ html {
   }
 
   75% {
-    fill: pink;
+    fill: white;
+  }
+  100% {
+    fill: white;
   }
 
 }
