@@ -69,11 +69,11 @@ html {
   transform-origin: bottom right;
 }
 
-.thingy-dingy {
+.thingy-dingy, .fuzzy{
   width: 100%;
 }
 
-.thingy {
+.thingy, .fuzzywuzzy {
   margin: 3em auto;
   width: 100%;
   background: #464646;
@@ -81,7 +81,49 @@ html {
   height: vh;
 }
 
+.bear-fill path:hover {
+  animation: bearfill 13000ms infinite linear;
+}
 
+@keyframes bearfill {
+  0% {
+    fill: white;
+    filter: blur(0px);
+  }
+
+  15% {
+    fill: lightblue;
+
+  }
+
+  25% {
+    fill: white;
+      filter: blur(3px);
+  }
+  35% {
+    fill: lightblue;
+  }
+
+  45% {
+    fill: white;
+  }
+
+  65% {
+    fill: lightblue;
+      filter: blur(0px);
+  }
+  85% {
+    fill: white;
+  }
+  100% {
+    fill: lightblue;
+  }
+
+  75% {
+    fill: pink;
+  }
+
+}
 /*
 .red-whole:hover {
   mix-blend-mode: screen;
